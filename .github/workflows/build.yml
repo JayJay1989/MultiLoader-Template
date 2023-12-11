@@ -11,10 +11,10 @@ on:
       - '**.properties'
       - '**/src/**'
     branches:
-      - "minecraft-*"
+      - "1.*"
   push:
     branches:
-      - "minecraft-*"
+      - "1.*"
 
 jobs:
   validate-gradle:
